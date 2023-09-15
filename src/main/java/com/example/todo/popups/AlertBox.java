@@ -1,4 +1,4 @@
-package com.example.todo;
+package com.example.todo.popups;
 
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;

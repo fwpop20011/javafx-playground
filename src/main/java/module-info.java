@@ -7,4 +7,6 @@ module com.example.todo {
 
     opens com.example.todo to javafx.fxml;
     exports com.example.todo;
+    exports com.example.todo.popups;
+    opens com.example.todo.popups to javafx.fxml;
 }

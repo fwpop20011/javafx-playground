@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane prefHeight="288.0" prefWidth="548.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.todo.DifficultyController">
+   <children>
+      <VBox alignment="CENTER" layoutX="236.0" prefHeight="198.0" prefWidth="130.0">
+         <children>
+         
+                      <Label fx:id="Difficulty" alignment="CENTER" prefHeight="23.0" prefWidth="142.0" />
+            <VBox alignment="CENTER_LEFT" prefHeight="109.0" prefWidth="107.0">
+               <children>
+               
+                            <RadioButton fx:id="btnEasy" alignment="CENTER_RIGHT" prefHeight="35.0" prefWidth="82.0" text="Easy">
+                     <toggleGroup>
+                        <ToggleGroup fx:id="toggleGroup" />
+                     </toggleGroup>
+                     <opaqueInsets>
+                        <Insets bottom="10.0" />
+                     </opaqueInsets>
+                  </RadioButton>
+                   <RadioButton fx:id="btnMed" alignment="CENTER_RIGHT" prefHeight="32.0" prefWidth="89.0" text="Medium" toggleGroup="$toggleGroup" />
+                   <RadioButton fx:id="btnHard" alignment="CENTER_RIGHT" prefHeight="31.0" prefWidth="78.0" text="Hard" toggleGroup="$toggleGroup" />
+               </children>
+               <padding>
+                  <Insets top="10.0" />
+               </padding>
+            </VBox>
+             <Button alignment="CENTER" cancelButton="true" onAction="#openAds" prefHeight="18.0" prefWidth="42.0" text="Ads!">
+               <VBox.margin>
+                  <Insets top="10.0" />
+               </VBox.margin>
+            </Button>
+         
+                                  <Button alignment="CENTER" onAction="#onConfirmClk" text="Confirm!">
+               <opaqueInsets>
+                  <Insets top="30.0" />
+               </opaqueInsets>
+               <VBox.margin>
+                  <Insets top="10.0" />
+               </VBox.margin>
+            </Button>
+         </children>
+         <opaqueInsets>
+            <Insets left="300.0" />
+         </opaqueInsets>
+      </VBox>
+   </children>
+</AnchorPane>

@@ -1,14 +1,12 @@
 package com.example.todo;
 
+import com.example.todo.popups.AlertBox;
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;
 import javafx.scene.control.RadioButton;
 import javafx.scene.control.ToggleGroup;
 
-import java.net.URL;
-import java.util.ResourceBundle;
-
-public class HelloController {
+public class DifficultyController {
     private static String confirmTxt = "";
     @FXML
     private Label Difficulty;
