@@ -22,16 +22,20 @@ public class startScreenController {
     @FXML
     private BorderPane boarderPane;
 
+
     public void initialize() throws IOException {
         Button btn1 = (Button) buttonBar.getButtons().get(0);
         btn1.setText("difficulty");
-        AnchorPane view = FXMLLoader.load(getClass().getResource("difficulty-view.fxml"));
-        boarderPane.setCenter(view);
     }
 
     @FXML
     private void dfficultyScene() throws IOException {
         AnchorPane view = FXMLLoader.load(getClass().getResource("difficulty-view.fxml"));
         boarderPane.setCenter(view);
+    }
+
+    @FXML
+    private void mathsScene() throws IOException {
+        AnchorPane view = FXMLLoader.load(getClass().getResource("mathScreen-view.fxml"));
     }
 }

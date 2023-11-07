@@ -10,7 +10,7 @@
       <ButtonBar fx:id="buttonBar" prefHeight="40.0" prefWidth="422.0" BorderPane.alignment="CENTER">
         <buttons>
           <Button fx:id="btn1" mnemonicParsing="false" onAction="#dfficultyScene" prefHeight="26.0" prefWidth="154.0" text="Button" />
-            <Button fx:id="btn2" mnemonicParsing="false" prefHeight="26.0" prefWidth="154.0" text="Button" />
+            <Button fx:id="btn2" mnemonicParsing="false" onAction="#mathsScene" prefHeight="26.0" prefWidth="154.0" text="Button" />
             <Button fx:id="btn3" mnemonicParsing="false" prefHeight="26.0" prefWidth="154.0" text="Button" />
             <Button fx:id="btn4" mnemonicParsing="false" prefHeight="26.0" prefWidth="154.0" text="Button" />
         </buttons>
